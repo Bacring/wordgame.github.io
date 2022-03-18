@@ -1,0 +1,152 @@
+
+body {
+    background-color: rgb(249,250,251);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+header {
+    background-color: white;
+    height: 45px;
+}
+
+.without-borders {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.without-borders * {
+    margin: 0;
+}
+
+#startScreen {
+    width: 800px;
+    margin: 120px auto;
+    transition: 0.5s ease-in-out;
+}
+
+#startScreen img {
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#StartButton {
+    border: 1px solid white;
+    background-color: rgb(34, 115, 221);
+
+    color:white;
+    
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+}
+
+#bestscore {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.tophud {
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(215, 217, 219);
+    padding: 4px;
+    color:gray;
+}
+
+#place-center {
+    display:none;
+    max-width: 1024px;
+    margin-top: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s ease-in-out;
+}
+
+#wordZone  {
+    transition: 0.5s ease-in-out;
+}
+
+.game-information {
+    border-bottom: 1px solid #1464db;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#game-hiddentext {
+    margin-top: 20px;
+    font-size: 42px;
+    text-align: center;
+}
+
+#game-alphabet {
+    justify-content: center;
+    display:flex;
+    margin: 10px;
+}
+
+.alphabet-button {
+    font-size: 20px;
+    margin: 0.1em;
+    background-color: white;
+    padding: 14px;
+    border: 1px solid #1464db;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+
+.alphabet-button:hover {
+    background-color: #1464db;
+    color: white;
+}
+
+.alphabet-button-success {
+    font-size: 20px;
+    margin: 0.1em;
+    background-color: #11a324;
+    padding: 14px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.alphabet-button-denied {
+    font-size: 20px;
+    margin: 0.1em;
+    background-color: #ce1d1d;
+    padding: 14px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#information {
+    color:gray;
+    text-align: center;
+}
+
+#mainText {
+    text-align: center;
+    margin-bottom: 5px;
+}
